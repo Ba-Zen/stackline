@@ -1,5 +1,5 @@
 .stats-container {
-  width: 1200px;
+  width: 925px;
   background-color: #fff;
   margin: 10px;
   padding: 40px;
@@ -15,21 +15,23 @@
 
     h3 {
       width: 20%;
+      i {
+        margin-left: 10px;
+      }
     }
   }
   .stats {
     display: flex;
     flex-direction: row;
-    // padding: 40px;
     width: 100%;
     .column {
       width: 20%;
-      //padding: 0 40px;
       p {
         border-bottom: 1px solid lightgrey;
         width: 100%;
         padding: 13px 13px;
         padding-right: 0px;
+        font-size: 14px;
       }
     }
   }

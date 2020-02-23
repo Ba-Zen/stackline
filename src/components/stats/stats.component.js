@@ -9,11 +9,21 @@ class Stats extends React.Component {
     return (
       <div className='stats-container'>
         <header className='column-header'>
-          <h3>Week Ending</h3>
-          <h3>Retail Sales</h3>
-          <h3>Wholesale Sales</h3>
-          <h3>Units Sold</h3>
-          <h3>Retailer Margin</h3>
+          <h3>
+            Week Ending<i class='fas fa-sort-down'></i>
+          </h3>
+          <h3>
+            Retail Sales<i class='fas fa-sort-down'></i>
+          </h3>
+          <h3>
+            Wholesale Sales<i class='fas fa-sort-down'></i>
+          </h3>
+          <h3>
+            Units Sold<i class='fas fa-sort-down'></i>
+          </h3>
+          <h3>
+            Retailer Margin<i class='fas fa-sort-down'></i>
+          </h3>
         </header>
         <div className='stats'>
           <div className='column'>
