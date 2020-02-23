@@ -1,0 +1,77 @@
+.item-container {
+  width: 350px;
+  height: 1000px;
+  margin: 10px;
+  background-color: #fff;
+  border: 0.5px solid lightgray;
+  box-shadow: rgba(0, 0, 0, 0.3) 11px 0px 22px -6px;
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 20px;
+    img {
+      width: 200px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    span {
+      text-align: center;
+      width: 100%;
+      font-size: 18px;
+      color: grey;
+    }
+  }
+  hr {
+    background-color: #f9f9f9;
+    height: 1px;
+    width: 100%;
+  }
+  .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3px;
+    p {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 10px 21px;
+      margin: 7px;
+    }
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    button {
+      border: none;
+      font-size: 16px;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      &:hover {
+        cursor: pointer;
+        color: darkgray;
+      }
+      i {
+        width: 40px;
+        height: 30px;
+        margin-right: 25px;
+      }
+    }
+    .overview {
+      color: #a1b1c3;
+    }
+    .sales {
+      i {
+        color: #45a7f7;
+      }
+    }
+  }
+}
